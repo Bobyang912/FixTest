@@ -57,7 +57,7 @@ public class MainActivity extends ActionBarActivity implements OnWeatherListener
         findView(R.id.btn_go).setOnClickListener(this);
 
         loadingDialog = new ProgressDialog(this);
-        loadingDialog.setTitle("加载天气中..");
+        loadingDialog.setTitle("加载天气中.");
 
 
     }
